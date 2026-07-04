@@ -1,4 +1,4 @@
-import type { taskDTO } from "../types/tasksTypes";
+import type { taskDTO } from "../types/types";
 
 export const mockTasks: taskDTO[]= [
   {

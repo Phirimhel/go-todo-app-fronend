@@ -1,5 +1,5 @@
-import { httpClient, getErrorMessage } from "@/shared/api";
-import type { taskDTO, CreateTaskPayload, UpdateTaskPayload } from "../types/tasksTypes";
+import { httpClient, getErrorMessage } from "@/shared/axios";
+import type { taskDTO, CreateTaskPayload, UpdateTaskPayload } from "../types/types";
 
 export interface FetchTasksParams {
   limit?: number;
@@ -32,7 +32,6 @@ export const createTask = async (
     throw new Error(getErrorMessage(error));
   }
 };
-
 
 export const updateTask = async (
   payload: UpdateTaskPayload,

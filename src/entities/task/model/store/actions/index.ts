@@ -1,3 +1,3 @@
-export { loadTasksAction } from './loadTasks';
-export { patchTaskAction } from './updateTask';
-export { createTaskAction } from './createTask';
+export { loadTasksAction } from './load';
+export { patchTaskAction } from './update';
+export { createTaskAction } from './create';

@@ -1,4 +1,4 @@
-import type { taskDTO, Task, CreateTaskPayload, UpdateTaskPayload } from "./tasksTypes";
+import type { taskDTO, Task, CreateTaskPayload, UpdateTaskPayload } from "./types";
 
 export function taskModelFromDTO(dto: taskDTO): Task {
   return {

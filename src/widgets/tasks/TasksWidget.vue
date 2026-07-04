@@ -2,10 +2,10 @@
 import { onMounted, ref, watch } from "vue";
 import TasksList from "./TasksList.vue";
 import TaskDialog from "@/entities/task/ui/TaskDialog.vue";
-import type { Task } from "@/entities/task/model/types/tasksTypes.ts";
-import { NewUninitializedTask } from "@/entities/task/model/types/tasksUtils.ts";
+import type { Task } from "@/entities/task/model/types/types.ts";
+import { NewUninitializedTask } from "@/entities/task/model/types/utils.ts";
 import Button from "@/components/ui/button/Button.vue";
-import { useTasksStore } from "@/entities/task/model/store/tasksStore.ts";
+import { useTasksStore } from "@/entities/task/model/store/store.ts";
 
 const tasksStore = useTasksStore();
 

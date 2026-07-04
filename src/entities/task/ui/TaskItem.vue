@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import type { Task } from "@/entities/task/model/types/tasksTypes";
+import type { Task } from "@/entities/task/model/types/types";
 
 const props = defineProps<{
   task: Task;

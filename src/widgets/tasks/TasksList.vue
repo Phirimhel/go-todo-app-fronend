@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import TaskItem from "@/entities/task/ui/TaskItem.vue";
-import type { Task } from "@/entities/task/model/types/tasksTypes";
+import type { Task } from "@/entities/task/model/types/types";
 
 defineProps<{
   tasks: Task[];

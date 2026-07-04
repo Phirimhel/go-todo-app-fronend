@@ -9,8 +9,8 @@ import {
 } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import type { Task } from "../model/types/tasksTypes";
-import { NEW_TASK_ID } from "@/entities/task/model/types/tasksTypes";
+import type { Task } from "../model/types/types";
+import { NEW_TASK_ID } from "@/entities/task/model/types/types";
 import { computed, ref } from "vue";
 
 import { Textarea } from "@/components/ui/textarea";
